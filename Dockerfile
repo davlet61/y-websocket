@@ -4,4 +4,4 @@ WORKDIR /
 
 COPY . .
 
-RUN ./server-init.sh
+RUN ["chmod", "+x", "./server-init"]
