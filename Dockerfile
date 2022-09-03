@@ -1,7 +1,13 @@
-FROM ubuntu
+ARG PORT
+
+ARG HOST
+
+FROM node:16
 
 WORKDIR /
 
-COPY . .
+COPY package.json ./
 
-RUN ["chmod", "+x", "./server-init"]
+RUN npm i
+
+CMD [ "npm", "start"]

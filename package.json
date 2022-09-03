@@ -1,0 +1,22 @@
+{
+  "name": "y-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "PORT=$PORT npx y-websocket"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davlet61/y-websocket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davlet61/y-websocket/issues"
+  },
+  "homepage": "https://github.com/davlet61/y-websocket#readme",
+  "dependencies": {
+    "y-websocket": "^1.4.4"
+  }
+}
