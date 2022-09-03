@@ -2,4 +2,4 @@ FROM ubuntu
 
 WORKDIR /
 
-RUN /serverInit.sh
+RUN serverInit.sh
