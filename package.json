@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "PORT=$PORT npx y-websocket"
+    "start": "HOST=$HOST PORT=$PORT npx y-websocket"
   },
   "repository": {
     "type": "git",
