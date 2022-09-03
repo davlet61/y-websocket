@@ -1,7 +1,5 @@
 ARG PORT
 
-ARG HOST
-
 FROM node:16
 
 WORKDIR /
